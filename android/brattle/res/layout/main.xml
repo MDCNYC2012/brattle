@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:text="State: waiting"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/attention"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="42sp"
+        android:text="Attention:" >
+    </TextView>
+    <TextView
+        android:id="@+id/meditation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="42sp"
+        android:text="Meditation:" >
+    </TextView>
+    <TextView
+        android:id="@+id/blink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="42sp"
+        android:text="Blink:" 
+        android:layout_marginBottom="40dp">
+    </TextView>
+    <TextView
+        android:id="@+id/heartrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="42sp"
+        android:text="Heatrate" 
+        android:visibility="gone">
+    </TextView>
+    
+    <Button
+        android:id="@+id/connect_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doConnect"
+        android:textSize="52sp"
+        android:text="CONNECT" >
+    </Button>
+    
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="Status: " >
+    </TextView>
+    
+</LinearLayout>
